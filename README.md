@@ -1,3 +1,3 @@
-# Dio Cursos
+# Dio Programas e Cursos
 
-Projetos e desafios do Bootcamp
+Projetos e desafios
