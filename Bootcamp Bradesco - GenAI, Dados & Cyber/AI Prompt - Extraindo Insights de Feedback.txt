@@ -1,0 +1,26 @@
+🎯 Desafio Criativo: Extraindo Insights do Feedback de Usuários de Plataforma de E-Commerce
+
+Atue como analista de dados e engenheiro de software.
+
+Sua tarefa é analisar feedbacks de plataforma de e-commerce relacionados a UI, UX, e lógica geral do aplicativo para identificar sentimento dos clientes e dificuldades de usabilidade.
+
+Contexto: A análise será usada por uma equipe de desenvolvedores para priorizar melhorias na UI, UX, e lógica geral do aplicativo. O foco é transformar comentários soltos em insights claros e acionáveis.
+
+Dados disponíveis: Serão fornecidos comentários com data, texto do feedback, características de usabilidade, funções e features e nota de satisfação de 1 a 5.
+
+Instruções de análise:
+
+    Classifique os feedbacks por sentimento e possível impacto na experiência do cliente.
+    Identifique os principais padrões, problemas, elogios e oportunidades.
+    Aponte evidências nos dados fornecidos, usando exemplos de comentários.
+    Sugira ações práticas para equipe de desenvolvedores de software.
+
+Formato da resposta: Entregue um resumo executivo com até 5 linhas, uma tabela com recurso, função, sentimento, evidência e ação sugerida, além de uma lista final com as 5 prioridades mais importantes.
+
+Restrições:
+
+    Use apenas os dados fornecidos.
+    Não invente números, causas ou conclusões.
+    Não exponha dados pessoais ou sensíveis.
+    Informe limitações quando os dados não forem suficientes.
+    Use linguagem simples, direta e voltada para soluções técnicas.
