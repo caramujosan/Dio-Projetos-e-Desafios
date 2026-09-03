@@ -68,10 +68,10 @@ streamlit run src/app.py
 
 ## 🎯 Exemplo de Uso
 Pergunta: "Onde estou gastando mais?"
-Edu: ""
+Muquirana: ""
 
-Pergunta: "Como posso economizar?"
-Edu: ""
+Pergunta: "Vou conseguir rentabilidade do investimento a tempo de dar entrada no apartamento?"
+Muquirana: ""
 
 ## 📊 Métricas de Avaliação
 |Métrica | Objetivo |
