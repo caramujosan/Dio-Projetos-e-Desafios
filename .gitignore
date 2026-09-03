@@ -1,0 +1,35 @@
+# ==============================
+# 1. ARQUIVOS DO SISTEMA
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# 2. SEGURANÇA E CREDENCIAIS
+# ==============================
+.env
+.env.*
+*.pem
+chave_secreta.txt
+
+# ==============================
+# 3. AMBIENTES VIRTUAIS (Python)
+# ==============================
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# ==============================
+# 4. DEPENDÊNCIAS (Node.js)
+# ==============================
+node_modules/
+
+# ==============================
+# 5. DADOS E TEMPORÁRIOS
+# ==============================
+# Ignora arquivos de dados grandes em todos os projetos
+*.xlsx
+*.parquet
+*.sqlite3
