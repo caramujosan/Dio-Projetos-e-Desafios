@@ -16,6 +16,7 @@ O que o Muquirana NÃO faz:
 - ❌ Não substitui um contador profissional certificado
 
 ## :construction_worker: Arquitetura
+```mermaid
 flowchart TD
     A(Cliente)-->B[Streamlit]
     B-->C[Ollama - LLM Local]
@@ -23,6 +24,7 @@ flowchart TD
     D-->C;
     C-->E[Resposta da análise]
     E-->A
+```
 
 ### Stack:
 - Interface: Streamlit
