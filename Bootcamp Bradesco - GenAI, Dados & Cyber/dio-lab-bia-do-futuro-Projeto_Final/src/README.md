@@ -1,8 +1,6 @@
 # Código da Aplicação
 
-Esta pasta contém o código do seu agente financeiro.
-
-## Estrutura Sugerida
+## Estrutura
 
 ```
 src/
@@ -10,14 +8,6 @@ src/
 ├── agente.py           # Lógica do agente
 ├── config.py           # Configurações (API keys, etc.)
 └── requirements.txt    # Dependências
-```
-
-## Exemplo de requirements.txt
-
-```
-streamlit
-pandas
-requests
 ```
 
 # Passo a Passo de Execução
@@ -32,10 +22,6 @@ ollama pull gpt-oss
 # 3. Testar se funciona
 ollama run gpt-oss "Olá!"
 ```
-
-## Código Completo
-
-Todo o código-fonte está no arquivo `app.py`.
 
 ## Como Rodar
 
