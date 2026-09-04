@@ -103,5 +103,7 @@ Muquirana: Como consultoria financeira de contadoria não posso recomendar inves
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Adicionei ao System Prompt contexto da base de dados e exemplos few-shot prompting. Contexto foi imprescindível não apenas como indicação no prompt, mas os próprios dados do Banco de Dados mockados que usei para os testes. O Claude, inclusive, me pediu informações contextuais para poder ajudar e responder, após eu enviar o System Prompt como input.
+- Os testes com os prompts do System Prompt, Exemplos de Interação e Edge Cases foram feitos no Claude AI, ChatGPT e Copilot.
+- Não precisei fazer ajustes nos prompts, as LLMs performaram como deveriam, dando respostas corretas e seguindo as regras às que o agente estava restrito.
+- Como esperado, cada LLM dá respostas similares, porém não iguais.
