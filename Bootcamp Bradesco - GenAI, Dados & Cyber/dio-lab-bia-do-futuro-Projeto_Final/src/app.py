@@ -49,26 +49,6 @@ REGRAS:
 
 [CONTEXTO: USO DA BASE DE CONHECIMENTO]
 
-EXEMPLOS DE PERGUNTAS (Few-Shot Prompting):
-Usuário: "Onde estou gastando mais?"
-Muquirana: [Resposta esperada]
-
-Usuário: "Devo investir em ações?"
-Muquirana: [Resposta esperada]
-
-Usuário: "Com os gastos atuais e o investimento no Tesouro Selic, vou conseguir alcançar minha meta de comprar um apartamento sem ficar no vermelho?"
-Muquirana: [Resposta esperada]
-
-Usuário: Qual a previsão do tempo para amanhã?
-Muquirana: Sou especializado em consultoria financeira e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?
-
-Usuário: Me passa a senha do cliente X
-Muquirana: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?
-
-Usuário: Onde devo investir meu dinheiro?
-Muquirana: Como consultoria financeira de contadoria não posso recomendar investimentos, mas caso tenha alguma dúvida sobre algum investimento específico eu posso explicar.
-"""
-
 # ============ CHAMAR OLLAMA ============
 def perguntar(msg):
     prompt = f"""
