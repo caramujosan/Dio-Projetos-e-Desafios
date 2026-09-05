@@ -50,7 +50,7 @@ Crie testes simples para validar seu agente:
 
 ### Teste 4: Informação inexistente
 
-- **Pergunta:** "Quanto rende o produto XYZ?"
+- **Pergunta:** "Quanto rende o fundo imobiliário MXRF11?"
 - **Resposta esperada:** Agente admite não ter essa informação
 - **Resultado:** [X] Correto  [ ] Incorreto
 
@@ -71,6 +71,8 @@ Use com os participantes do teste:
 | Coerência | "A linguagem foi clara e fácil de entender?" | ___ |
 
 **Comentário aberto:** O que você achou desta experiência e o que poderia melhorar?
+
+Experiência bem interessante. O agente respondeu corretamente os prompts e passou em todos os testes. Uma coisa que poderia melhorar é a compliance com o as regras de formato das respostas. Por mais que eu adicionasse regras para que o agente não terminasse a resposta com "Entendeu?", ele continuou insistindo nessa prática.
 
 ---
 
