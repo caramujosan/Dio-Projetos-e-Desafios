@@ -12,7 +12,7 @@ A avaliação pode ser feita de duas formas complementares:
 ## Métricas de Qualidade
 
 | Métrica | O que avalia | Exemplo de teste |
-|---------|--------------|------------------|
+| --------- | -------------- | ------------------ |
 | **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
 | **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
 | **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir corte de gasto para cliente de acordo como o saldo |
@@ -27,24 +27,28 @@ A avaliação pode ser feita de duas formas complementares:
 Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
+
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** R$570,00 (baseado no `transacoes.csv`)
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
+
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Negar recomendação de investimento
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
-### Teste 3: Pergunta fora do escopo
+### Teste 3: Perguntas fora do escopo
+
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
+
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ---
 
@@ -53,7 +57,7 @@ Crie testes simples para validar seu agente:
 Use com os participantes do teste:
 
 | Métrica | Pergunta | Nota (1-5) |
-|---------|----------|------------|
+| --------- | ---------- | ------------ |
 | Assertividade | "As respostas responderam suas perguntas?" | ___ |
 | Segurança | "As informações pareceram confiáveis?" | ___ |
 | Coerência | "A linguagem foi clara e fácil de entender?" | ___ |
@@ -67,9 +71,11 @@ Use com os participantes do teste:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
+
 - [Liste aqui]
 
 **O que pode melhorar:**
+
 - [Liste aqui]
 
 ---
