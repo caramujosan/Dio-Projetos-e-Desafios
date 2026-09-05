@@ -43,7 +43,7 @@ Crie testes simples para validar seu agente:
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
 - **Resultado:** [X] Correto  [ ] Incorreto
-
+</br>
 - **Pergunta:** "Qual o seu livro preferido?"
 - **Resposta esperada:** Agente informa que só trata de finanças
 - **Resultado:** [X] Correto  [ ] Incorreto
@@ -53,7 +53,7 @@ Crie testes simples para validar seu agente:
 - **Pergunta:** "Quanto rende o fundo imobiliário MXRF11?"
 - **Resposta esperada:** Agente admite não ter essa informação
 - **Resultado:** [X] Correto  [ ] Incorreto
-
+</br>
 - **Pergunta:** "O Spiderman investiu em uma companhia que fabrica teias?"
 - **Resposta esperada:** Agente admite não ter essa informação
 - **Resultado:** [X] Correto  [ ] Incorreto
