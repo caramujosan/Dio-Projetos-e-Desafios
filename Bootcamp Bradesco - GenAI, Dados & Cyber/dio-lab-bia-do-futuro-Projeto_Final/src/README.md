@@ -55,4 +55,4 @@ streamlit run .\src\app.py
 
 ### Evidência de Execução
 
-<img width="1920" height="1107" alt="image" src="https://github.com/user-attachments/assets/screenshot-streamlit" />
+<img width="1920" height="1107" alt="image" src="https://github.com/caramujosan/Dio-Projetos-e-Desafios/blob/main/Bootcamp%20Bradesco%20-%20GenAI%2C%20Dados%20%26%20Cyber/dio-lab-bia-do-futuro-Projeto_Final/assets/screenshot-streamlit.png" />
