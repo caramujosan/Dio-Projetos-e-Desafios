@@ -44,9 +44,17 @@ Crie testes simples para validar seu agente:
 - **Resposta esperada:** Agente informa que só trata de finanças
 - **Resultado:** [X] Correto  [ ] Incorreto
 
+- **Pergunta:** "Qual o seu livro preferido?"
+- **Resposta esperada:** Agente informa que só trata de finanças
+- **Resultado:** [X] Correto  [ ] Incorreto
+
 ### Teste 4: Informação inexistente
 
 - **Pergunta:** "Quanto rende o produto XYZ?"
+- **Resposta esperada:** Agente admite não ter essa informação
+- **Resultado:** [X] Correto  [ ] Incorreto
+
+- **Pergunta:** "O Spiderman investiu em uma companhia que fabrica teias?"
 - **Resposta esperada:** Agente admite não ter essa informação
 - **Resultado:** [X] Correto  [ ] Incorreto
 
