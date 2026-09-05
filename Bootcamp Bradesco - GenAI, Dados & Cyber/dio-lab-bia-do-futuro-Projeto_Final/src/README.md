@@ -1,6 +1,6 @@
 # Código da Aplicação
 
-## Estrutura
+## Estrutura Sugerida (projetos mais complexos)
 
 ```
 src/
@@ -9,8 +9,13 @@ src/
 ├── config.py           # Configurações (API keys, etc.)
 └── requirements.txt    # Dependências
 ```
+---
 
 # Passo a Passo de Execução
+
+## Código Completo
+
+Todo o código-fonte está no arquivo `app.py`.
 
 ## Setup do Ollama
 
