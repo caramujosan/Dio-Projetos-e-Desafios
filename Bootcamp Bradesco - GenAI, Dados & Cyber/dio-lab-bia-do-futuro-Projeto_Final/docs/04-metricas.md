@@ -84,11 +84,14 @@ Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
 
-- [Liste aqui]
+- Respostas corretas
+- Ausência de alucinação
+- Boa aderência às regras, tanto positivas quanto negativas
+- As respostas fizeram sentido para o perfil do cliente
 
 **O que pode melhorar:**
 
-- [Liste aqui]
+- Regra de formato de resposta nem sempre é respeitada
 
 ---
 
