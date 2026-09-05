@@ -2,22 +2,29 @@
 
 ## Estrutura Sugerida (projetos mais complexos)
 
-```
+```text
 src/
 ├── app.py              # Aplicação principal (Streamlit/Gradio)
 ├── agente.py           # Lógica do agente
 ├── config.py           # Configurações (API keys, etc.)
 └── requirements.txt    # Dependências
 ```
+
 ---
 
-# Passo a Passo de Execução
+## Estrutura Usada no Projeto
 
-## Código Completo
+```text
+src/
+├── app.py              # Aplicação principal (Streamlit/Gradio)
+└── requirements.txt    # Dependências
+```
 
-Todo o código-fonte está no arquivo `app.py`.
+---
 
-## Setup do Ollama
+## Passo a Passo de Execução
+
+### Setup do Ollama
 
 ```bash
 # 1. Baixar Ollama (ollama.com)
@@ -28,11 +35,12 @@ ollama run gpt-oss:20b
 # 4. Testar se funciona
 ollama run gpt-oss:20b "Olá!"
 ```
+
 :llama: [https://ollama.com/](https://ollama.com/)
 
 [https://ollama.com/library/gpt-oss:20b](https://ollama.com/library/gpt-oss:20b)
 
-## Como Rodar
+### Como Rodar
 
 ```bash
 # 1. Instalar dependências
@@ -45,6 +53,6 @@ ollama serve
 streamlit run .\src\app.py
 ```
 
-## Evidência de Execução
+### Evidência de Execução
 
-<img width="1920" height="1107" alt="image" src="https://github.com/user-attachments/assets/" />
+<img width="1920" height="1107" alt="image" src="https://github.com/user-attachments/assets/screenshot-streamlit" />
