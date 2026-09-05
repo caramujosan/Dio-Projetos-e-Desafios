@@ -3,9 +3,10 @@ import pandas as pd
 import requests
 import streamlit as st
 
+
 # ============ CONFIGURAÇÃO ============
-OLLAMA_URL = "http://localhost:11434/api/generate"
-MODELO = "gpt-oss"
+OLLAMA_URL = "http://localhost:11434"
+MODELO = "gpt-oss:20b"
 
 # ============ CARREGAR DADOS ============
 perfil = json.load(open('./data/perfil_investidor.json'))
@@ -80,6 +81,7 @@ def perguntar(msg):
 
     r = requests.post(OLLAMA_URL, json={"model": MODELO, "prompt": prompt, "stream": False})
     return r.json()['response']
+
 
 # ============ INTERFACE ============
 st.title(":money_with_wings: Muquirana, um contador e consultor financeiro")
