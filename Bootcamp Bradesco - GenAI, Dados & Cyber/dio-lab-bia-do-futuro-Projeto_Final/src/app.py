@@ -54,7 +54,7 @@ REGRAS:
 
 def main():
 # ============ INTERFACE ============
-    st.title(":money_with_wings: Muquirana, um contador e consultor financeiro")
+    st.title(":money_with_wings: Muquirana, consultor financeiro")
 
     if pergunta := st.chat_input("Sua dúvida sobre finanças..."):
         st.chat_message("user").write(pergunta)
