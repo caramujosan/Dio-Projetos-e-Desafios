@@ -23,7 +23,7 @@ Todo o código-fonte está no arquivo `app.py`.
 # 1. Baixar Ollama (ollama.com)
 # 2. Instalar Ollama
 # 3. Baixar um modelo leve
-ollama run gpt-oss:20b
+ollama run gpt-oss:20b [https://ollama.com/library/gpt-oss:20b](https://ollama.com/library/gpt-oss:20b)
 
 # 3. Testar se funciona
 ollama run gpt-oss:20b "Olá!"
