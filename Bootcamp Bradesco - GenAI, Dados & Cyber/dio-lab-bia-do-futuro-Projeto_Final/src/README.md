@@ -22,10 +22,10 @@ Todo o código-fonte está no arquivo `app.py`.
 ```bash
 # 1. Instalar Ollama (ollama.com)
 # 2. Baixar um modelo leve
-ollama pull gpt-oss
+ollama run gpt-oss:20b
 
 # 3. Testar se funciona
-ollama run gpt-oss "Olá!"
+ollama run gpt-oss:20b "Olá!"
 ```
 
 ## Como Rodar
