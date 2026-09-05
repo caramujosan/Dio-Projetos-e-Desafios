@@ -48,8 +48,20 @@ REGRAS:
 - Responda de forma sucinta e direta, com no máximo 3 parágrafos.
 
 [CONTEXTO: USO DA BASE DE CONHECIMENTO]
+"""
 
 # ============ CHAMAR OLLAMA ============
+
+def main():
+# ============ INTERFACE ============
+    st.title(":money_with_wings: Muquirana, um contador e consultor financeiro")
+
+    if pergunta := st.chat_input("Sua dúvida sobre finanças..."):
+        st.chat_message("user").write(pergunta)
+        with st.spinner("..."):
+            st.chat_message("assistant").write(perguntar(pergunta))
+            
+
 def perguntar(msg):
     prompt = f"""
     {SYSTEM_PROMPT}
@@ -63,10 +75,5 @@ def perguntar(msg):
     return r.json()['response']
 
 
-# ============ INTERFACE ============
-st.title(":money_with_wings: Muquirana, um contador e consultor financeiro")
-
-if pergunta := st.chat_input("Sua dúvida sobre finanças..."):
-    st.chat_message("user").write(pergunta)
-    with st.spinner("..."):
-        st.chat_message("assistant").write(perguntar(pergunta))
+if __name__=="__main__":
+    main()
