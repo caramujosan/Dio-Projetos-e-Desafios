@@ -19,6 +19,10 @@ Todo o código-fonte está no arquivo `app.py`.
 
 ## Setup do Ollama
 
+:llama: [https://ollama.com/](https://ollama.com/)
+
+[https://ollama.com/library/gpt-oss:20b](https://ollama.com/library/gpt-oss:20b)
+
 ```bash
 # 1. Baixar Ollama (ollama.com)
 # 2. Instalar Ollama
@@ -28,7 +32,6 @@ ollama run gpt-oss:20b
 # 4. Testar se funciona
 ollama run gpt-oss:20b "Olá!"
 ```
-[https://ollama.com/library/gpt-oss:20b](https://ollama.com/library/gpt-oss:20b)
 
 ## Como Rodar
 
