@@ -58,4 +58,4 @@
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Muquirana - consultor financeiro ](https://youtu.be/f8_18RmkhxE)
+[Muquirana - consultor financeiro](https://youtu.be/f8_18RmkhxE)
